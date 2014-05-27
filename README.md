@@ -12,11 +12,11 @@ qmake : 用于生成源文件项目结构
 
 修改主目录下的makefile，为新的子目录添加生成入口，格式如下：
 
-<module_name>:
+module_name:
 
 	$(MAKE) -fmakefile.mk -C$(PROJECT_ROOT_PATH)/<subdir> build MODULE=<module_name>
 	
-<module_name>_clean:
+module_name_clean:
 
 	$(MAKE) -fmakefile.mk -C$(PROJECT_ROOT_PATH)/<subdir> clean MODULE=<module_name>
 
