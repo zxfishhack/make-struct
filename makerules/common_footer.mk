@@ -34,7 +34,7 @@ clean:
 	-rm -f $(OBJ_DIR)/*.*
 	-rm -f MAKEFILE_$(PLATFORM).DEPEND
 
-MKDEP = $(CXX) $(DEFINE) $(INCLUDE) -MM -MT _f_u_c_k_
+MKDEP = $(CXX) $(CXX_OPTS) $(DEFINE) $(INCLUDE) -MM -MT _f_u_c_k_
 
 depend: $(SOURCES)
 #	@echo \# $(MODULE): $(PLATFORM): Making Directories, if not already created
