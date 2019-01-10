@@ -1,5 +1,5 @@
 CC = gcc
 CXX = g++
-LD = g++ 
+LD = g++
 AR = ar 
 
